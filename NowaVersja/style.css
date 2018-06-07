@@ -84,6 +84,33 @@ div.card{
     margin: 20px;
 }
 
+
+div.contact-small {
+    width: 100%;
+    height: 150px;
+    border: 2px solid #79BD9A;
+    border-radius: 3%;
+    margin-bottom: 5px;
+    padding: 10px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 20px;
+
+}
+
+div.contact-small:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    background-color: #A8DBA8;
+}
+
+h3.contact_title{
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+
 @media (orientation: landscape) {
 
     img.logo {
@@ -99,6 +126,8 @@ div.card{
         margin-top: 4px;
         overflow: hidden;
     }
+
+
 }
 
 @media (min-width: 576px) { ... }
@@ -185,6 +214,7 @@ div.card{
         padding: 2px;
         text-align: left;
         font-size: 13px;
+        line-height: 200%;
     }
 
 
@@ -209,6 +239,25 @@ div.card{
         letter-spacing: 1px;
         margin-bottom: 10px;
     }
+
+    h6.card-subtitle{
+        font-size: 12px;
+        font-style: italic bold;
+        margin: 35px;
+        line-height: 250%;
+    }
+    li.list{
+        margin-left : 40px
+    }
+
+    div.ourOffer{
+        padding: 2px;
+        text-align: left;
+        font-size: 13px;
+        line-height: 200%;
+
+    }
+
 
 }
 
@@ -238,6 +287,10 @@ div.card{
         padding-right: 0px;
         margin-top: 14px;
         overflow: hidden;
+    }
+    div.contact-box{
+        display: inline-block;
+        direction: ltr;
     }
 
 }
